@@ -69,7 +69,7 @@ def add_page(cat,title,url,views=0):
     return p
 
 def add_cat(name):
-    c = Category.objects.get_or_create(name = name)
+    c = Category.objects.get_or_create(name = name)[0]
     c.save()
     return c
 
