@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rango'
 ]
 
 MIDDLEWARE = [
@@ -129,4 +130,4 @@ STATIC_URL = '/static/' #client can access this at /static/
 
 #Media files
 MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'
