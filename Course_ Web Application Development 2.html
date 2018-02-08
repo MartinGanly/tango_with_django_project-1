@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://moodle2.gla.ac.uk/course/view.php?id=5728 -->
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Course: Web Application Development 2</title>
+    <link rel="shortcut icon" href="http://moodle2.gla.ac.uk/theme/image.php/hillhead/theme/1516184800/favicon">
+    
+<meta name="keywords" content="moodle, Course: Web Application Development 2">
+<link rel="stylesheet" type="text/css" href="./Course_ Web Application Development 2_files/yui_combo.php"><script async="" src="http://www.google-analytics.com/analytics.js"></script><script charset="utf-8" id="yui_3_17_2_1_1518032732269_8" src="./Course_ Web Application Development 2_files/yui_combo(1).php" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1518032732269_18" href="./Course_ Web Application Development 2_files/yui_combo(2).php"><script charset="utf-8" id="yui_3_17_2_1_1518032732269_19" src="./Course_ Web Application Development 2_files/yui_combo(3).php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1518032732269_28" src="./Course_ Web Application Development 2_files/yui_combo(4).php" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./Course_ Web Application Development 2_files/all">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle2.gla.ac.uk","sesskey":"O1X8b1H1mm","themerev":"1516184800","slasharguments":1,"theme":"hillhead","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1513677145","admin":"admin","svgicons":true,"usertimezone":"Europe\/London","contextid":296328};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"http:\/\/moodle2.gla.ac.uk\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/moodle2.gla.ac.uk\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/moodle2.gla.ac.uk\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle2.gla.ac.uk\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/moodle2.gla.ac.uk\/theme\/yui_combo.php?m\/1513677145\/","combine":true,"comboBase":"http:\/\/moodle2.gla.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"m\/1513677145\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_generico-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_helixatto-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/moodle2.gla.ac.uk\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/moodle2.gla.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1513677145\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle2.gla.ac.uk\/lib\/javascript.php\/1513677145\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/moodle2.gla.ac.uk\/lib\/javascript.php\/1513677145\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script><style></style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./Course_ Web Application Development 2_files/first.js.download"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+   CommonHTML: {
+        scale: 100,
+        matchFontHeight: false
+    },
+   "HTML-CSS": {
+        scale: 100,
+        matchFontHeight: false
+    },
+});</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/event" src="./Course_ Web Application Development 2_files/event.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="./Course_ Web Application Development 2_files/jquery-private.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./Course_ Web Application Development 2_files/jquery-3.1.0.min.js.download"></script><link rel="stylesheet" type="text/css" href="chrome-extension://immhpnclomdloikkpcefncmfgjbkojmh/css/emoji.css"></head>
+
+<body id="page-course-view-topics" class="format-topics  path-course path-course-view safari dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle2-gla-ac-uk pagelayout-course course-5728 context-296328 category-454  jsenabled">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="http://moodle2.gla.ac.uk/course/view.php?id=5728#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="./Course_ Web Application Development 2_files/yui_combo(5).php"></script><script type="text/javascript" src="./Course_ Web Application Development 2_files/javascript-static.js.download"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+            <div class="row">
+                <div class="col-sm-4 col-xs-2">
+                    <div data-region="drawer-toggle">
+                        <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span aria-hidden="true">☰</span><span class="sr-only">Expand</span></button>
+                        </div>
+        
+                    <a href="http://moodle2.gla.ac.uk/" class="navbar-brand 
+                            hidden-sm-down
+                            ">
+                        <span class="site-name hidden-sm-down">Moodle2</span>
+                    </a>
+                </div>
+                <div class="col-sm-4 hidden-xs-down">
+                
+                </div>
+                <div class="col-sm-4 col-xs-10 user-menu">
+                <!-- navbar_plugin_output -->
+                    <div class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="64600" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5a7b575c69cfa5a7b575c690a12" aria-haspopup="true" aria-label="Show message window with no new messages" tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5a7b575c69cfa5a7b575c690a12" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="http://moodle2.gla.ac.uk/message/index.php?contactsfirst=1">New message
+            </a>
+        </div>
+        <a class="mark-all-read-button" href="http://moodle2.gla.ac.uk/course/view.php?id=5728#" role="button" title="Mark all as read" data-action="mark-all-read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="./Course_ Web Application Development 2_files/loading"></span>
+        </a>
+        <a href="http://moodle2.gla.ac.uk/message/edit.php?id=64600" title="Message preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="./Course_ Web Application Development 2_files/loading"></span>
+        </div>
+                <a class="see-all-link" href="http://moodle2.gla.ac.uk/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="64600" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5a7b575c6b6685a7b575c690a13" aria-haspopup="true" aria-label="Show notification window with no new notifications" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5a7b575c6b6685a7b575c690a13" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="http://moodle2.gla.ac.uk/course/view.php?id=5728#" title="Mark all as read" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="./Course_ Web Application Development 2_files/loading"></span>
+        </a>
+        <a href="http://moodle2.gla.ac.uk/message/notificationpreferences.php?userid=64600" title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="./Course_ Web Application Development 2_files/loading"></span>
+        </div>
+                <a class="see-all-link" href="http://moodle2.gla.ac.uk/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                    <!-- user_menu -->
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#" class="dropdown-toggle" id="dropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-label="Settings" title="Settings" aria-expanded="false"><span class="userbutton"><span class="usertext">Liam Brodie</span><span class="avatars"><span class="avatar current"><img src="./Course_ Web Application Development 2_files/f2" alt="Picture of Liam Brodie" title="Picture of Liam Brodie" class="userpicture defaultuserpic" width="35" height="35" role="presentation"></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="http://moodle2.gla.ac.uk/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i><span class="menu-action-text" id="actionmenuaction-1">Dashboard</span></a><div class="dropdown-divider"></div><a href="http://moodle2.gla.ac.uk/user/profile.php?id=64600" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-2">Profile</span></a><a href="http://moodle2.gla.ac.uk/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-3">Grades</span></a><a href="http://moodle2.gla.ac.uk/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i><span class="menu-action-text" id="actionmenuaction-4">Messages</span></a><a href="http://moodle2.gla.ac.uk/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-5">Preferences</span></a><div class="dropdown-divider"></div><a href="http://moodle2.gla.ac.uk/login/logout.php?sesskey=O1X8b1H1mm" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-6">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+                </div>
+            </div>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+    
+        
+    
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"><div class="action-menu moodle-actionmenu" id="action-menu-2" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-2-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#" class="dropdown-toggle" id="dropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-label="Settings" title="Settings" aria-expanded="false"><i class="icon fa fa-cog fa-fw " aria-hidden="true" aria-label=""></i></a>
+        <div class="dropdown-menu dropdown-menu-right menu align-tr-br" id="action-menu-2-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-2" role="menu" data-align="tr-br">
+            <div class="dropdown-item">
+
+    <a href="http://moodle2.gla.ac.uk/enrol/gudatabase/unenrolself.php?enrolid=13046" id="action_link5a7b575c690a112" class="" role="menuitem"><i class="icon fa fa-user fa-fw " aria-hidden="true" aria-label=""></i>Unenrol me from WAD2</a>
+
+
+
+</div>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-headings"><h1>Web Application Development 2</h1></div></div></div><div class="clearfix w-100 pull-xs-left" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/my/">Dashboard</a></li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/course/index.php?categoryid=3">College of Science and Engineering</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/course/index.php?categoryid=91">Schools</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/course/index.php?categoryid=93">Computing Science</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/course/index.php?categoryid=454">Level 2</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728" title="Web Application Development 2">WAD2</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button pull-xs-right"></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                
+                <section id="region-main" class="has-blocks">
+                    <div class="card card-block" id="yui_3_17_2_1_1518032732269_37">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main" id="yui_3_17_2_1_1518032732269_36"><span id="maincontent"></span><div class="course-content" id="yui_3_17_2_1_1518032732269_35"><h2 class="accesshide">Topic outline</h2><ul class="topics" id="yui_3_17_2_1_1518032732269_34"><li id="section-0" class="section main clearfix" role="region" aria-label="General"><span class="hidden sectionname">General</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-0">General</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p style="text-align: center;"><span style="font-size: large;"><b></b></span></p><h1 style="text-align: center;"><b><span><strong><span>WEB APPLICATION DEVELOPMENT 2</span></strong></span></b></h1><p></p><p style="text-align: center;"><br></p><br><table>
+<thead>
+<tr>
+<th scope="col">Lecturer:&nbsp;</th>
+<th scope="col"><strong><a href="http://www.dcs.gla.ac.uk/~davidm">Dr David Manlove</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Room:</td>
+<td>S151, Lilybank Gardens</td>
+</tr>
+<tr>
+<td>Email:</td><td><a href="http://david.manlove@glasgow.ac.uk/">david.manlove@glasgow.ac.uk</a></td>
+</tr>
+</tbody>
+</table>
+<br><br><p></p></div></div><ul class="section img-text"><li class="activity url modtype_url " id="module-199749"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#39;http://moodle2.gla.ac.uk/mod/url/view.php?id=199749&amp;redirect=1&#39;); return false;" href="http://moodle2.gla.ac.uk/mod/url/view.php?id=199749"><img src="./Course_ Web Application Development 2_files/icon" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Course Specification<span class="accesshide "> URL</span></span></a></div></div></div></div></li><li class="activity forum modtype_forum " id="module-542238"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="http://moodle2.gla.ac.uk/mod/forum/view.php?id=542238"><img src="./Course_ Web Application Development 2_files/icon(1)" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Announcements<span class="accesshide "> Forum</span></span></a></div></div></div></div></li><li class="activity forum modtype_forum " id="module-542237"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="http://moodle2.gla.ac.uk/mod/forum/view.php?id=542237"><img src="./Course_ Web Application Development 2_files/icon(1)" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Discussion forum</span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-819849"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="http://moodle2.gla.ac.uk/mod/resource/view.php?id=819849"><img src="./Course_ Web Application Development 2_files/pdf-24" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Course Handbook<span class="accesshide "> File</span></span></a></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-label="Introduction"><span class="hidden sectionname">Introduction</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-1">Introduction</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p>This course will focus on building web applications using the Python / Django Web Application Framework. In addition to Python and Django, the course will involve a range of other technologies including&nbsp;<span style="letter-spacing: 0px;">HTML, CSS, XML, JavaScript, jQuery and AJAX.</span></p></div></div><ul class="section img-text"></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-label="Course textbook"><span class="hidden sectionname">Course textbook</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content" id="yui_3_17_2_1_1518032732269_33"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-2">Course textbook</a></span></h3><div class="section_availability"></div><div class="summary" id="yui_3_17_2_1_1518032732269_32"><div class="no-overflow" id="yui_3_17_2_1_1518032732269_31"><p id="yui_3_17_2_1_1518032732269_30">This course will be based on the book, "How to Tango With Django" by Leif Azzopardi and David Maxwell. &nbsp;The book is hosted online at: <a href="http://www.tangowithdjango.com/" style="background-color: white;">http://www.tangowithdjango.com</a>&nbsp;(make sure you choose "Book 1.9/1/10"). &nbsp;It can be accessed free of charge by University of Glasgow staff and students <a href="https://www.yumpu.com/en/document/view/56779577/tango-with-django-19-university-of-glasgow-library" target="_blank">here</a>. &nbsp;The access code is&nbsp;<b id="yui_3_17_2_1_1518032732269_29">yMNpPQXt</b>. &nbsp;You must not share this access code with anyone outside of the University of Glasgow.</p></div></div><ul class="section img-text"></ul></div></li><li id="section-3" class="section main clearfix current" role="region" aria-label="Lectures"><span class="hidden sectionname">Lectures</span><div class="left side"><span class="accesshide ">This topic</span></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content" id="yui_3_17_2_1_1518032732269_39"><h3 class="sectionname" id="yui_3_17_2_1_1518032732269_38"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-3">Lectures</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><ul><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/WAD2topics.pdf">List of topics</a></li></ul><br><ul><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L1-Introduction.pdf">Introduction to Web Application Development</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L2-Django-WAF-Introduction.pdf">Django Web Application Framework</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L3-DjangoTutorialLecture1.pdf">Django Beginner's Tutorial - Parts 1 and 2</a></li><li><span style="background-color: rgb(255, 255, 255); font-size: 1rem;"><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L4-DjangoTutorialLecture2.pdf">Django Beginner's Tutorial - Parts 3 and 4</a></span></li><li><span style="background-color: rgb(255, 255, 255); font-size: 1rem;"><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L5-DjangoTutorialLecture3.pdf">Django Beginner's Tutorial - Parts 5 and 6</a></span></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L6-7-System-Architecture.pdf">System Architecture</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L8-Information-Architecture.pdf">Information Architecture</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L9-Design-Spec-Example.pdf">Design Specification Example</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L10-Entity-Relationship-Diagrams.pdf">Entity-Relationship Diagrams</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/L11-CSS.pdf">Cascading Style Sheets</a>&nbsp;|&nbsp;<a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68838/CSS.zip">examples</a></li></ul><p><br></p></div></div><ul class="section img-text"></ul></div></li><li id="section-4" class="section main clearfix" role="region" aria-label="Labs"><span class="hidden sectionname">Labs</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-4">Labs</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p></p><p></p><ul><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68839/WAD2-Labs-Weeks1-5.pdf">Lab briefing sheet for Weeks 1-5</a></li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68839/WAD2-Labs-Weeks6-11.pdf">Lab briefing sheet for Weeks 6-11</a></li></ul><p></p><p></p></div></div><ul class="section img-text"></ul></div></li><li id="section-5" class="section main clearfix" role="region" aria-label="Assessment"><span class="hidden sectionname">Assessment</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-5">Assessment</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><ul>
+<li id="_COMPSCI202134"><span id="_COMPSCI202135">Lecture Quizzes: 10%</span></li><ul><li id="_COMPSCI202134">access them at <a href="https://classresponse.gla.ac.uk/">https://classresponse.gla.ac.uk</a> in class only</li><li id="_COMPSCI202134">login using your GUID</li><li id="_COMPSCI202134">join session 1108</li></ul><li id="_COMPSCI202134"><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68837/WAD2-Rango.pdf">Development of Rango Application</a>: 10%</li><li>Design Specification: 10%</li><li><span>Project Presentation and Demonstration: 5%</span></li><ul><li><span>will take place during your week 11 lab session</span></li></ul><li><span>Project (web application code): 25%</span></li><li>Exam: 40%</li><ul><li>April / May</li></ul></ul><p><span style="font-size: 14px;"></span></p></div></div><ul class="section img-text"></ul></div></li><li id="section-6" class="section main clearfix" role="region" aria-label="Resources and links"><span class="hidden sectionname">Resources and links</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="./Course_ Web Application Development 2_files/spacer"></div><div class="content"><h3 class="sectionname"><span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-6">Resources and links</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p></p><p>Apps</p><ul><li><a href="http://wad2app.pythonanywhere.com/">WAD2 admin app</a></li><li><a href="http://rangodemo.pythonanywhere.com/rango/"><span style="background-color: white;">Rango</span>&nbsp;on PythonAnywhere</a></li><li><a href="https://github.com/wad2/django_tutorial_1.11">Polls app on Github</a><br></li><li><a href="http://wad2.pythonanywhere.com/polls/">Polls app on PythonAnywhere</a></li></ul><p><br></p><p>Development</p><ul><li>Sample <a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68841/wsgi.py">wsgi.py</a> file for PythonAnywhere</li><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68841/jquery.js">jQquery.js</a> (version 3.2.1)</li><li><a href="http://127.0.0.1:8000/">Localhost</a> (on your machine)</li></ul><p><br></p><p>Web references and tutorials</p><p></p><ul><li><a href="https://docs.djangoproject.com/en/1.11/">Django documentation</a></li><li><a href="https://docs.djangoproject.com/en/1.11/intro">The Django Beginners' Tutorial</a><br></li><li><a href="https://git-scm.com/docs/">Git documentation</a></li><li><a href="http://www.w3schools.com/">w3schools</a></li></ul><p><br></p><p>Miscellaneous<br></p><p></p><ul><li>Validators: <a href="http://validator.w3.org/">(X)HTML</a>, <a href="http://www.css-validator.org/">CSS</a>,&nbsp;<a href="http://www.w3schools.com/xml/xml_validator.asp">XML</a> <a href="http://jsonlint.com/">JSON</a>, <a href="http://www.jslint.com/">JavaScript</a></li><li><a href="http://demo.nickname.net/demo/testpak/encode.pl">Character codes</a> in HTML</li><li><a href="https://www.cheatography.com/davechild/cheat-sheets/regular-expressions/">Regular expression cheat sheet</a></li></ul><br><p></p>Past exam papers<br><ul><li><a href="http://moodle2.gla.ac.uk/pluginfile.php/296328/course/section/68841/WAD2-Summer-2016.pdf">2016 April/May diet</a></li></ul><br><br><p></p><p></p><p></p></div></div><ul class="section img-text"></ul></div></li></ul></div></div>
+                    
+                    </div>
+                </section>
+                <section data-region="blocks-column" class="hidden-print">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#sb-1" class="sr-only sr-only-focusable">Skip Search forums</a>
+
+<aside id="inst43911" class=" block block_search_forums  card m-b-1" role="search" data-block="search_forums" aria-labelledby="instance-43911-header">
+
+    <div class="card-block">
+
+
+            <h3 id="instance-43911-header" class="card-title">Search forums</h3>
+
+        <div class="card-text content">
+            <div class="searchform">
+    <form action="http://moodle2.gla.ac.uk/mod/forum/search.php" class="form-inline">
+        <input type="hidden" name="id" value="5728">
+        <div class="form-group">
+            <label class="sr-only" for="searchform_search">Search</label>
+            <input id="searchform_search" name="search" type="text" class="form-control" size="10">
+        </div>
+        <button class="btn btn-secondary" id="searchform_button" type="submit">Go</button>
+        
+    </form>
+    <div class="m-t-1">
+        <a href="http://moodle2.gla.ac.uk/mod/forum/search.php?id=5728">Advanced search</a>
+            <a class="btn btn-link p-a-0" role="button" data-container="body" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;For basic searching of one or more words anywhere in the text, just type them separated by spaces. All words longer than two characters are used.&lt;/p&gt;
+
+&lt;p&gt;For advanced searching, press the search button without typing anything in the search box to access the advanced search form.&lt;/p&gt;
+&lt;/div&gt; " data-html="true" tabindex="0" data-trigger="focus">
+              <i class="icon fa fa-question-circle text-info fa-fw " aria-hidden="true" title="Help with Search" aria-label="Help with Search"></i>
+            </a>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-1"></span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#sb-2" class="sr-only sr-only-focusable">Skip Latest announcements</a>
+
+<aside id="inst43912" class=" block block_news_items  card m-b-1" role="complementary" data-block="news_items" aria-labelledby="instance-43912-header">
+
+    <div class="card-block">
+
+
+            <h3 id="instance-43912-header" class="card-title">Latest announcements</h3>
+
+        <div class="card-text content">
+            
+<ul class="unlist">
+<li class="post"><div class="head clearfix"><div class="date">6 Feb, 20:50</div><div class="name">David Manlove</div></div><div class="info"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=319202">Reminder: Wednesday's lecture is cancelled</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">5 Feb, 09:36</div><div class="name">David Manlove</div></div><div class="info"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=318249">Information for this week</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">1 Feb, 15:11</div><div class="name">David Manlove</div></div><div class="info"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=317395">Team preferences (and Quiz Question 14)</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">29 Jan, 09:40</div><div class="name">David Manlove</div></div><div class="info"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=315475">Uploading team preferences</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">29 Jan, 09:34</div><div class="name">David Manlove</div></div><div class="info"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=315464">Results of automated testing</a></div></li>
+</ul>
+
+            <div class="footer"><a href="http://moodle2.gla.ac.uk/mod/forum/view.php?f=22534">Older topics</a> ...</div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-2"></span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#sb-3" class="sr-only sr-only-focusable">Skip Upcoming events</a>
+
+<aside id="inst43913" class=" block block_calendar_upcoming  card m-b-1" role="complementary" data-block="calendar_upcoming" aria-labelledby="instance-43913-header">
+
+    <div class="card-block">
+
+
+            <h3 id="instance-43913-header" class="card-title">Upcoming events</h3>
+
+        <div class="card-text content">
+            <div class="post">There are no upcoming events</div>
+            <div class="footer"><div class="gotocal"><a href="http://moodle2.gla.ac.uk/calendar/view.php?view=upcoming&amp;course=5728">Go to calendar</a>...</div><div class="newevent"><a href="http://moodle2.gla.ac.uk/calendar/event.php?action=new&amp;course=5728">New event</a>...</div></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-3"></span><a href="http://moodle2.gla.ac.uk/course/view.php?id=5728#sb-4" class="sr-only sr-only-focusable">Skip Recent activity</a>
+
+<aside id="inst43914" class=" block block_recent_activity  card m-b-1" role="complementary" data-block="recent_activity" aria-labelledby="instance-43914-header">
+
+    <div class="card-block">
+
+
+            <h3 id="instance-43914-header" class="card-title">Recent activity</h3>
+
+        <div class="card-text content">
+            <div class="activityhead">Activity since Tuesday, 6 February 2018, 3:14 PM</div><div class="activityhead"><a href="http://moodle2.gla.ac.uk/course/recent.php?id=5728">Full report of recent activity...</a></div><h3>New forum posts:</h3><ul class="unlist"><li><div class="head"><div class="date">6 Feb, 20:50</div><div class="name">David Manlove</div></div><div class="info bold"><a href="http://moodle2.gla.ac.uk/mod/forum/discuss.php?d=319202">Reminder: Wednesday's lecture is cancelled</a></div></li></ul>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-4"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group accessibility-toggle"><a class="list-group-item hh-acc hh-acc-ac-on" href="http://moodle2.gla.ac.uk/theme/hillhead/accessibility.php?o=theme_hillhead_accessibility&amp;v=on">Show Accessibility Tools</a></nav>
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action font-weight-bold" href="http://moodle2.gla.ac.uk/course/view.php?id=5728" data-key="coursehome">
+                <div class="m-l-0">
+                        WAD2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/user/index.php?id=5728" data-key="participants">
+                <div class="m-l-0">
+                        Participants
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/badges/view.php?type=2&amp;id=5728" data-key="badgesview">
+                <div class="m-l-0">
+                        Badges
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/grade/report/index.php?id=5728" data-key="grades">
+                <div class="m-l-0">
+                        Grades
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-0" data-key="68834">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">General</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-1" data-key="68835">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Introduction</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-2" data-key="68836">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Course textbook</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-3" data-key="68838">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Lectures</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-4" data-key="68839">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Labs</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-5" data-key="68837">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Assessment</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=5728#section-6" data-key="68841">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Resources and links</span>
+                        </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/my/" data-key="myhome">
+                <div class="m-l-0">
+                        Dashboard
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/?redirect=0" data-key="home">
+                <div class="m-l-0">
+                        Site home
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/calendar/view.php?view=month" data-key="calendar">
+                <div class="m-l-0">
+                        Calendar
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/user/files.php" data-key="privatefiles">
+                <div class="m-l-0">
+                        Private files
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses">
+                <div class="m-l-0">
+                    My courses
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=3920" data-key="3920">
+                <div class="m-l-1">
+                        GU German Society
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=1201" data-key="1201">
+                <div class="m-l-1">
+                        SMLC Non-Honours general information
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=8404" data-key="8404">
+                <div class="m-l-1">
+                        MEGA
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=11501" data-key="11501">
+                <div class="m-l-1">
+                        OOSE 2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=11500" data-key="11500">
+                <div class="m-l-1">
+                        JP2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=2858" data-key="2858">
+                <div class="m-l-1">
+                        GENERAL LVL 2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=2859" data-key="2859">
+                <div class="m-l-1">
+                        AF2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=2860" data-key="2860">
+                <div class="m-l-1">
+                        ADS2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=2861" data-key="2861">
+                <div class="m-l-1">
+                        CS2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action font-weight-bold" href="http://moodle2.gla.ac.uk/course/view.php?id=5728" data-key="5728">
+                <div class="m-l-1">
+                        WAD2
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=794" data-key="794">
+                <div class="m-l-1">
+                        GENERAL LVL3
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=3043" data-key="3043">
+                <div class="m-l-1">
+                        GenCS
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=10102" data-key="10102">
+                <div class="m-l-1">
+                        PlagCheck
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=3323" data-key="3323">
+                <div class="m-l-1">
+                        CS Careers
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=3322" data-key="3322">
+                <div class="m-l-1">
+                        CS SA/ER
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=4689" data-key="4689">
+                <div class="m-l-1">
+                        Stats 1Y: Probability and Statistical Methods
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=4690" data-key="4690">
+                <div class="m-l-1">
+                        Stats 1Z: 
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=10387" data-key="10387">
+                <div class="m-l-1">
+                        Psych Level 1 2017
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=3567" data-key="3567">
+                <div class="m-l-1">
+                        Psych Level 1 Lectures
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=12497" data-key="12497">
+                <div class="m-l-1">
+                        Psych Level 1 Assessment
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=4529" data-key="4529">
+                <div class="m-l-1">
+                        PsychGeneral
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=4474" data-key="4474">
+                <div class="m-l-1">
+                        Psych LR
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=10367" data-key="10367">
+                <div class="m-l-1">
+                        ECON1010
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=11503" data-key="11503">
+                <div class="m-l-1">
+                        ASBS Central Student Information Point 2017/18
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/view.php?id=6546" data-key="6546">
+                <div class="m-l-1">
+                        GENERAL1006
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle2.gla.ac.uk/course/index.php#" data-key="courseindexpage">
+                <div class="m-l-1">
+                        More...
+                </div>
+            </a>
+        </nav>
+    </div>
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+<footer id="page-footer" class="p-y-1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+    			<h3 class="glasgow">University <em>of</em> Glasgow</h3>
+    			<p class="address">Glasgow, G12 8QQ, Scotland</p>
+    			<p class="phone">Tel +44 (0) 141 330 2000</p>
+    			<p class="charity">The University of Glasgow is a registered Scottish charity: Registration Number SC004401</p>
+            </div>
+            <div class="col-sm-3 footer-links"><h4>Site Links</h4><ul><li><a href="http://moodle2.gla.ac.uk/my">Dashboard</a></li><li><a href="http://moodle2.gla.ac.uk/course">Course Directory</a></li><li><a href="http://moodle2.gla.ac.uk/report/guid/index.php">GUID Search</a></li><li class="moodle-footer-doc-link"></li><li class="logininfo"></li></ul></div>
+    		<div class="col-sm-3 footer-links"><h4>Current Students</h4><ul><li><a href="http://www.gla.ac.uk/students/myglasgow/">MyGlasgow Students</a></li></ul><h4>Current Staff</h4><ul><li><a href="http://www.gla.ac.uk/myglasgow/staff/">MyGlasgow Staff</a></li></ul></div></div>
+    </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34644010-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://moodle2.gla.ac.uk/lib/requirejs.php/1513677145/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://moodle2.gla.ac.uk/lib/javascript.php/1513677145/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'http://moodle2.gla.ac.uk/lib/javascript.php/1513677145/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'http://moodle2.gla.ac.uk/lib/javascript.php/1513677145/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./Course_ Web Application Development 2_files/require.min.js.download"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "http://moodle2.gla.ac.uk/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Play": "Play",
+ "Pause": "Pause",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected"
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(296328, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="./Course_ Web Application Development 2_files/format.js.download"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\",\r\n   CommonHTML: {\r\n        scale: 100,\r\n        matchFontHeight: false\r\n    },\r\n   \"HTML-CSS\": {\r\n        scale: 100,\r\n        matchFontHeight: false\r\n    },\r\n});","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5a7b575c690a113'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5a7b575c690a113'); });
+})();
+//]]>
+</script>
+
+
+
+</body></html>

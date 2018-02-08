@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from rango.models import Category
 from rango.models import Page
+from rango.models import Page
 # Create your views here.
 
 #this is the index view, it takes a necessary HttpRequest obj 'request'
